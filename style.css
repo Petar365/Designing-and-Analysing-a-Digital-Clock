@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #060a1f ;
+}
+#clock h2 {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+}
+#time{
+    padding-bottom: 140px;
+}
+#clock #time{
+    display: flex;
+}
+#clock #time div{
+    position: relative;
+    margin: 1px;
+    -webkit-box-reflect: below 10px linear-gradient(transparent,#0004);
+}
+#clock #time div span{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 80px;
+    background: #2196f3;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+}
+#clock #time div span:nth-child(2){
+    height: 30px;
+    font-size: 0.7em;
+    font-weight: 500;
+    box-shadow: none;
+    background: #127fd6;
+}
+#clock #time div:last-child span:nth-child(1){
+    background: #ff006a;
+}
+#clock #time div:last-child span:nth-child(2){
+    background: #ec0062;
+}
+button{
+    border-radius: 0px !important;
+}
+button a{
+    color: white;
+}
+#alarms{
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    padding: 0;
+    justify-content: center;
+}
+#listItem{
+    list-style: none;
+    border: 1px solid #127fd6;
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+#t{
+    padding-top: 15px;
+}
+#removeAlarm span{
+    color: white;
+}
+#alarmsSet{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    padding-right: 40%;
+}
