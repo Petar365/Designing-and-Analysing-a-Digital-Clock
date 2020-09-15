@@ -1,0 +1,4 @@
+Casovnikot e pokazan vo centarot na stranata
+So kliknuvanje na Add Alarm vi iskaca MODULE za da vnesete alarm
+Maksimum broj dozvoleni Alarmi e 5
+So kliknuvanje na X kopceto do alarmot,alarmot se brise
